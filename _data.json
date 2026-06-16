@@ -1,0 +1,107 @@
+{
+ "keyword": "sell wbtc",
+ "h1": "Sell WBTC",
+ "brand": "WBTC",
+ "niche": "token",
+ "verb": "Swap",
+ "title": "Sell WBTC - Open App",
+ "meta_description": "sell wbtc with the official Uniswap app link; verify the WBTC contract, review the quote, slippage, gas, and wallet approval.",
+ "palette": {
+  "mode": "dark",
+  "bg": "#0B1018",
+  "accent": "#F7931A",
+  "ink": "#FFFFFF"
+ },
+ "hero_h2": "Convert Wrapped Bitcoin into USDC in one app flow",
+ "hero_lead": "sell wbtc opens the official Uniswap swap flow with Wrapped Bitcoin preselected, giving holders a direct place to review the route, price impact, slippage, gas, and wallet approval before converting.",
+ "badge": "ERC-20",
+ "widget": {
+  "from": "WBTC",
+  "from_net": "Ethereum",
+  "to": "USDC",
+  "to_net": "Ethereum",
+  "action": "Open Uniswap App"
+ },
+ "trust": [
+  "WBTC ERC-20",
+  "Ethereum mainnet",
+  "Etherscan verified contract"
+ ],
+ "what_is": "WBTC is Wrapped Bitcoin, an ERC-20 token representation of BTC on Ethereum; the <a href='https://wbtc.network/'>official WBTC site</a> is the primary project destination. This page opens Uniswap with WBTC preselected for a token swap and does not custody funds.",
+ "how": [
+  {
+   "t": "Open the app",
+   "d": "Use the CTA to load app.uniswap.org with WBTC as the input asset and USDC as the output asset."
+  },
+  {
+   "t": "Connect on Ethereum",
+   "d": "Connect a wallet you control and make sure the selected network is Ethereum before approving anything."
+  },
+  {
+   "t": "Review the quote",
+   "d": "Check output amount, route, price impact, slippage, and estimated gas; change the output token if needed."
+  },
+  {
+   "t": "Confirm the swap",
+   "d": "Approve WBTC only if the app asks, then confirm the swap in your wallet after reviewing the final transaction."
+  }
+ ],
+ "points": [
+  {
+   "h": "Contract first",
+   "p": "The canonical Ethereum WBTC token is 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599; compare it on <a href='https://etherscan.io/token/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'>Etherscan</a> before any approval."
+  },
+  {
+   "h": "No custody here",
+   "p": "This landing page only routes to app.uniswap.org; funds stay in your wallet until you sign a transaction."
+  },
+  {
+   "h": "Live execution",
+   "p": "Quotes, liquidity, gas, and price impact change block by block, so use the app's current numbers instead of cached page text."
+  }
+ ],
+ "eeat": [
+  {
+   "text": "WBTC official site",
+   "url": "https://wbtc.network/"
+  },
+  {
+   "text": "WBTC token contract on Etherscan",
+   "url": "https://etherscan.io/token/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+  },
+  {
+   "text": "Uniswap custom link documentation",
+   "url": "https://developers.uniswap.org/docs/trading/custom-interface-links"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I sell WBTC from a self-custody wallet?",
+   "a": "Open the app link, connect on Ethereum, select an amount, review the quote, slippage, gas, and route, then confirm in your wallet. The swap only executes after you sign.",
+   "open": true
+  },
+  {
+   "q": "Is sell WBTC the same as redeeming WBTC for BTC?",
+   "a": "No. A DEX swap converts WBTC into another Ethereum asset. Redemption to BTC is a separate merchant or custodian process, and requirements can vary.",
+   "open": false
+  },
+  {
+   "q": "What contract should I check before I sell WBTC?",
+   "a": "Check the Ethereum WBTC contract at <a href='https://etherscan.io/token/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'>0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599</a> before approving a wallet transaction.",
+   "open": false
+  },
+  {
+   "q": "Can I sell WBTC for USDC instead of ETH?",
+   "a": "Yes. The app link is prefilled for WBTC to USDC on Ethereum, and you can change the output token inside Uniswap before signing.",
+   "open": false
+  },
+  {
+   "q": "Are fees fixed when I sell WBTC?",
+   "a": "No. Network gas, route, liquidity, price impact, and any app-displayed fees can change, so review the final quote before confirming.",
+   "open": false
+  }
+ ],
+ "official_url": "https://app.uniswap.org/#/swap?inputCurrency=0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599&outputCurrency=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+ "official_domain": "app.uniswap.org",
+ "footer_note": "Not the official app; verify app.uniswap.org before connecting a wallet. Educational information only, not financial advice."
+}
