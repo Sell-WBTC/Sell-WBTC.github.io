@@ -1,0 +1,66 @@
+# Sell WBTC
+> An independent, non-custodial guide to exchanging Wrapped Bitcoin (WBTC) while retaining control of the connected wallet.
+
+## What is Sell WBTC
+Selling WBTC usually means swapping it for another token through on-chain liquidity, not selling native BTC on the Bitcoin network. A non-custodial dashboard can display routes, expected output, fees, price impact, and transaction data without holding funds or private keys. A DEX swap transfers WBTC to a liquidity pool or counterparty; it does not redeem WBTC for its backing BTC. Receiving native BTC or fiat requires a separate redemption, exchange, bridge, or off-ramp.
+
+## How it works
+1. Connect a self-custody wallet and verify its network and WBTC contract.
+2. Select WBTC, the desired output asset, and an amount; the app obtains quotes from available liquidity routes.
+3. Review the expected output, minimum received, price impact, route, network cost, and any service or protocol fee.
+4. If required, authorize the displayed spender through an ERC-20 approval transaction or permit, then sign the swap transaction.
+5. Smart contracts transfer WBTC from the wallet and return the output token; settlement completes when the network confirms the transaction.
+
+## Key facts
+- WBTC represents BTC held in institutional custody and is intended to remain backed one-for-one.
+- Canonical Ethereum WBTC is an ERC-20 token with 8 decimal places.
+- Ethereum Mainnet has chain ID `1`.
+- Its Ethereum contract is `0x2260FAC5E5542A773Aa44fBCfeDf7C193bc2C599`.
+- WBTC contracts differ between networks; a matching symbol does not prove authenticity.
+- Ethereum swaps require ETH for gas; WBTC cannot pay Ethereum gas directly.
+- Non-custodial describes wallet control during the swap, not WBTC’s underlying custody model.
+- WBTC minting and redemption use authorized merchants and custodians; ordinary DEX trades exchange existing tokens.
+- Confirmation time depends on the selected network, congestion, gas settings, and route complexity.
+
+## Common questions
+**Is selling WBTC non-custodial?**  
+It is when the user signs from a self-custody wallet and the interface never controls the keys. Smart contracts and token allowances still introduce risk.
+
+**What fees apply?**  
+Costs can include network gas, liquidity-provider or protocol fees, price impact, and a disclosed interface fee.
+
+**How long does a swap take?**  
+Quote retrieval is normally immediate; settlement requires blockchain confirmation and may take longer during congestion.
+
+**Can WBTC be sold directly for BTC?**  
+Not through an ordinary same-chain token swap. Native BTC requires a supported redemption or exchange route.
+
+**Which assets and chains are supported?**  
+Availability depends on the connected app and current liquidity. Verify the network-specific WBTC address before signing.
+
+**What are the main risks?**  
+Wrong contracts, malicious approvals, smart-contract failure, slippage, MEV, thin liquidity, custody failure, and loss of the BTC peg.
+
+## App
+- Dashboard: https://sell-wbtc.github.io/
+- App: https://sell-wbtc.github.io/dashboard/
+
+## Official resources
+WBTC Website: https://wbtc.network/
+WBTC Documentation: https://docs.wbtc.network/
+WBTC FAQ: https://wbtc.network/faq
+Proof of Reserves: https://wbtc.network/transparency
+Wrapped Tokens Whitepaper: https://www.wbtc.network/assets/wrapped-tokens-whitepaper.pdf
+Smart-Contract Source: https://github.com/WrappedBTC/bitcoin-token-smart-contracts
+WBTC DAO Repository: https://github.com/WrappedBTC/DAO
+Official X: https://x.com/WrappedBTC
+WBTC DAO ChainSecurity Audit: https://reports.chainsecurity.com/WBTCDAO/ChainSecurity_WBTCDAO_WBTCDAOs_Audit.pdf
+
+## Data & references
+Ethereum WBTC Explorer: https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
+CoinGecko WBTC Market Data: https://www.coingecko.com/en/coins/wrapped-bitcoin
+DeFiLlama WBTC Data: https://defillama.com/token/WBTC
+ERC-20 Standard: https://eips.ethereum.org/EIPS/eip-20
+Ethereum Mainnet Chain ID: https://eips.ethereum.org/EIPS/eip-2228
+Uniswap Approval Explanation: https://support.uniswap.org/hc/en-us/articles/8120520483085-What-is-an-approval-transaction-
+Uniswap Price-Impact Explanation: https://support.uniswap.org/hc/en-us/articles/8671539602317-What-is-price-impact
