@@ -1,0 +1,19 @@
+{
+  "name": "Sell WBTC",
+  "short_name": "Sell WBTC",
+  "description": "Sell WBTC for any token from your own wallet. How a non-custodial swap works: routes, approvals, gas, price impact, and verifying the real WBTC contract.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#f5f6f8",
+  "theme_color": "#f5f6f8",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
